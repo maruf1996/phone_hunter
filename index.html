@@ -11,16 +11,17 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="container">
     <header>
-      <h1 class="text-center text-primary fw-bolder my-5">
+      <h1 class="text-center text-primary fw-bolder">
         Welcome My Phone Hunter!
       </h1>
     </header>
     <main>
       <section>
-        <div class="mb-5 w-50 mx-auto">
+        <div class="search_container mx-auto">
           <input
             type="text"
             class="form-control"
@@ -38,10 +39,10 @@
       <section class="mb-5">
         <div
           id="phone_container"
-          class="row row-cols-2 row-cols-md-4 g-4 text-center"
+          class="row row-cols-1 row-cols-md-4 g-4 text-center"
         ></div>
         <div id="no_phone_massage" class="d-none">
-          <h3 class="text-center text-danger">
+          <h3 class="text-center warning text-danger">
             No Phone Found. Please try a New Search
           </h3>
         </div>

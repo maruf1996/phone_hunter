@@ -99,4 +99,4 @@ const displayPhoneDetails=phone=>{
     `;
 }
 
-loadPhones('b');
+loadPhones('v');
